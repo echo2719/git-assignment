@@ -26,7 +26,8 @@ index c32d8d7..61a6d40 100644
 ```
 git diff --cached
 ```
-커밋 vs staging area
+?git repo vs staging area
+커밋?
 ```
 diff --git a/dtype.py b/dtype.py
 new file mode 100644
@@ -41,6 +42,7 @@ index 0000000..c32d8d7
 커밋 안해서 0000000..
 /dev/null
 ```
+git add하고 diff하면 아무것도 안나옵니다
 커밋해고나서 git diff --cached/--staged git repository와 staging area 같아서 안나옴
 ```
 git diff HEAD
@@ -59,6 +61,7 @@ index c32d8d7..61a6d40 100644
 ```
 ## 지금 3가지의 차이전
 그 밑에 그림을 보길 바랍니다 
+head vs working directory
 ```
 $ git diff HEAD
 diff --git a/dtype.py b/dtype.py
@@ -71,6 +74,7 @@ index c32d8d7..8fca451 100644
 +print({i:ord(i) for i in 'python'})
 ```
 
+staging area vs working directory
 ```
 $ git diff --cached
 diff --git a/dtype.py b/dtype.py
@@ -128,5 +132,23 @@ index c32d8d7..61a6d40 100644
 
 
 ```
+## 다시 3가지 차이
+```
+git repository(HEAD)
+print('python')
+print(list('python'))
+
+staging area
+print('python')
+print(list('python'))
+print({i:ord(i) for i in 'python'})
+
+working directory
+print('python')
+print(list('python'))
+print({i:ord(i) for i in 'python'})
+print({i for i in range(5)})
+```
+
 
 그냥 07주diff.pdf 보자
