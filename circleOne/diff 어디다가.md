@@ -41,7 +41,7 @@ index 0000000..c32d8d7
 커밋 안해서 0000000..
 /dev/null
 ```
-커밋해고나서 git diff --cached/--staged GR?과 staging area 같아서 안나옴
+커밋해고나서 git diff --cached/--staged git repository와 staging area 같아서 안나옴
 ```
 git diff HEAD
 ```
@@ -94,3 +94,39 @@ index 61a6d40..8fca451 100644
 +print({i:ord(i) for i in 'python'})
 
 ```
+
+### 추가
+```
+git diff HEAD^ / HEAD~ 
+```
+이전 커밋
+...여러분 책에는 자세히 안나와요 그래서 보면은 128쪽에 4-10절에 나와요 diff 명령어가 그러나 여기선 2,3줄로 간단하...
+```
+$ git diff head head~
+```
+앗 너무 혼란스러워요!
+```
+diff --git a/dtype.py b/dtype.py
+index 61a6d40..c32d8d7 100644
+--- a/dtype.py
++++ b/dtype.py
+@@ -1,2 +1 @@
+ print("python")
+-print(list('python'))
+
+```
+$ git diff head~ head
+```
+```
+diff --git a/dtype.py b/dtype.py
+index c32d8d7..61a6d40 100644
+--- a/dtype.py
++++ b/dtype.py
+@@ -1 +1,2 @@
+ print("python")
++print(list('python'))
+
+
+```
+
+그냥 07주diff.pdf 보자
