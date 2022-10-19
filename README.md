@@ -17,3 +17,17 @@
     - [ ] fast forward merge, 3-way merge, rebase
     - [ ] conflict merge
     - [ ] reset revert
+
+++++ 어어어???
+
+	마크다운(markdown) 태그와 사용 방법 [2022 10/18(화)까지] [C반 2022 10/12(수)까지]
+~~다음 내용을 명령어 중심으로 정리 구축
+add, commit, log, show
+clone, push, pull, fetch/merge
+branch, checkout, switch
+fast forward merge, 3-way merge, rebase
+reset revert~~
+
+	다음의 내용을 정리한 1-2페이지의 cheat sheet 제작
+	git cheat sheet
+	github cheat shee
