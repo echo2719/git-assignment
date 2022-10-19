@@ -24,8 +24,8 @@
 	- 마크다운(markdown) 태그와 사용 방법 정리
 		- [ ] 했는가?
 
-~~다음 내용을 명령어 중심으로 정리 구축
-add, commit, log, show
+~~다음 내용을~~ 명령어 중심으로 정리 구축
+~~add, commit, log, show
 clone, push, pull, fetch/merge
 branch, checkout, switch
 fast forward merge, 3-way merge, rebase
