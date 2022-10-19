@@ -31,3 +31,5 @@ reset revert~~
 	다음의 내용을 정리한 1-2페이지의 cheat sheet 제작
 	git cheat sheet
 	github cheat shee
+
+파일이름: 내가 쓰고싶어서 만든 깃 치트시트.md
