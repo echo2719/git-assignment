@@ -1,7 +1,10 @@
+diff와 체크아웃 4페이지에 명령어 설명이 잘 되어있다.
+
+pdf와 하몎 보는걸 
 ```
 git diff
 ```
-
+Working diretory와 staging area 사이의 차이
 ```
 diff --git a/dtype.py b/dtype.py
 index c32d8d7..61a6d40 100644
@@ -149,6 +152,16 @@ print(list('python'))
 print({i:ord(i) for i in 'python'})
 print({i for i in range(5)})
 ```
+전에 썼던 working tree는 working directory와 같은 말 앗 용어통일안함
 
+0그림과 함꼐 7주diff.pdf 보자
+소스트리로 보는건 pdf
+GUI툴은 이러이러한 좋은 점이 이써요 손으로 옮길수이싸여
 
-그냥 07주diff.pdf 보자
+##### detatched head state
+브랜치의 마지막 커밋을 가기켜야하느느디 헤드를 옮기면 디테치트해드스테이트가 되낟.브랜치가 커밋아이디로나오죠
+다시원복을로하면 main으로다시오시면되어요
+
+디태치드헤드인상태에서git log하면 현재 head이전만 나와요 
+
+디태치드헤드에서는 시간여행을 할수이써요
