@@ -11,9 +11,9 @@
 
 - Github에 교재의 일부 정리 구축
 - Github에 최소한 다음의 내용을 설명하는 자료 구축
-	- add, commit, log, show
-    - clone, push, pull, fetch/merge
-    - branch, checkout, switch, merge
-    - fast forward merge, 3-way merge, rebase
-    - conflict merge
-    - reset revert
+    - [x] add, commit, log, show
+    - [x] clone, push, pull, fetch/merge
+    - [x] branch, checkout, switch, merge
+    - [ ] fast forward merge, 3-way merge, rebase
+    - [ ] conflict merge
+    - [ ] reset revert
