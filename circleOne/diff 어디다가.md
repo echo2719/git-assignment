@@ -120,7 +120,7 @@ index 61a6d40..c32d8d7 100644
 @@ -1,2 +1 @@
  print("python")
 -print(list('python'))
-
+```
 ```
 $ git diff head~ head
 ```
@@ -136,6 +136,7 @@ index c32d8d7..61a6d40 100644
 
 ```
 ## 다시 3가지 차이
+
 ```
 git repository(HEAD)
 print('python')
@@ -151,6 +152,7 @@ print('python')
 print(list('python'))
 print({i:ord(i) for i in 'python'})
 print({i for i in range(5)})
+
 ```
 전에 썼던 working tree는 working directory와 같은 말 앗 용어통일안함
 
