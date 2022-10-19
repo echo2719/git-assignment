@@ -10,6 +10,7 @@
 	  - OSS 교과목 수업 내용 정리
 
 - Github에 교재의 일부 정리 구축
+	- [ ] 했는가?
 - Github에 최소한 다음의 내용을 설명하는 자료 구축
     - [x] add, commit, log, show
     - [x] clone, push, pull, fetch/merge
@@ -18,9 +19,11 @@
     - [ ] conflict merge
     - [ ] reset revert
 
-++++ 어어어???
+## ++++ 어어어???
+- 
+	- 마크다운(markdown) 태그와 사용 방법 정리
+		- [ ] 했는가?
 
-	마크다운(markdown) 태그와 사용 방법 [2022 10/18(화)까지] [C반 2022 10/12(수)까지]
 ~~다음 내용을 명령어 중심으로 정리 구축
 add, commit, log, show
 clone, push, pull, fetch/merge
@@ -28,8 +31,8 @@ branch, checkout, switch
 fast forward merge, 3-way merge, rebase
 reset revert~~
 
-	다음의 내용을 정리한 1-2페이지의 cheat sheet 제작
-	git cheat sheet
-	github cheat shee
+- 다음의 내용을 정리한 1-2페이지의 cheat sheet 제작
+	- [ ] git cheat sheet
+	- [ ] github cheat sheet?
 
-파일이름: 내가 쓰고싶어서 만든 깃 치트시트.md
+만약 한다면, 파일이름: 내가 쓰고싶어서 만든 깃 치트시트.md
