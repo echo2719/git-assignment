@@ -4,7 +4,7 @@ pdf와 하몎 보는걸
 ```
 git diff
 ```
-Working diretory와 staging area 사이의 차이
+Working directory와 staging area 사이의 차이
 ```
 diff --git a/dtype.py b/dtype.py
 index c32d8d7..61a6d40 100644
