@@ -22,7 +22,7 @@
 ## ++++ 어어어???
 - 
 	- 마크다운(markdown) 태그와 사용 방법 정리
-		- [ ] 했는가?
+		- [x] 했는가?
 
 ~~다음 내용을~~ **명령어 중심으로 정리 구축**
 ~~add, commit, log, show
@@ -35,6 +35,6 @@ reset revert~~
 	- [ ] git cheat sheet
 	- [ ] github cheat sheet?
 
-만약 한다면, 파일이름: 내가 쓰고싶어서 만든 깃 치트시트.md
+만약 한다면, 파일이름: 내가-쓰고싶어서-만든-깃-치트시트.md
 
 [이쪽이](https://github.com/9dongb/My-OSS) 정리가 더 잘 되어 있어요
