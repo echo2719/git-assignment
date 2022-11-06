@@ -1,7 +1,9 @@
 # git clone
+
 ```bash
 git clone
 ```
+
 ```
 usage: git clone [<options>] [--] <repo> [<dir>]
 
@@ -53,10 +55,13 @@ usage: git clone [<options>] [--] <repo> [<dir>]
     --remote-submodules   any cloned submodules will use their remote-tracking branch
     --sparse              initialize sparse-checkout file to include only files at root
 ```
+
 # git push
+
 ```bash
 git push
 ```
+
 ```
 usage: git push [<options>] [<repository> [<refspec>...]]
 
@@ -93,10 +98,13 @@ usage: git push [<options>] [<repository> [<refspec>...]]
     -4, --ipv4            use IPv4 addresses only
     -6, --ipv6            use IPv6 addresses only
 ```
+
 # git pull
+
 ```bash
 git pull
 ```
+
 ```
 usage: git pull [<options>] [<repository> [<refspec>...]]
 
@@ -160,10 +168,13 @@ Options related to fetching
                           check for forced-updates on all updated branches
     --set-upstream        set upstream for git pull/fetch
 ```
+
 # git fetch
+
 ```bash
 git fetch
 ```
+
 ```
 usage: git fetch [<options>] [<repository> [<refspec>...]]
    or: git fetch [<options>] <group>

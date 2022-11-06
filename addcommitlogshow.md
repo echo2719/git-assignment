@@ -1,5 +1,4 @@
-aaaa
-=
+# addcommitlogshowdotmd
 
 ## git add
 
@@ -91,7 +90,7 @@ Commit contents options
     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 ```
 
-# git log
+## git log
 
 ```bash
 git log

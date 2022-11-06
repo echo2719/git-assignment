@@ -1,8 +1,12 @@
-# git branch
+# branchcheckoutswitchmergedotmd
+
+## git branch
+
 ```bash
 git branch
 ```
-```
+
+```text
 usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
    or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
    or: git branch [<options>] [-l] [<pattern>...]
@@ -49,12 +53,15 @@ Specific git-branch actions:
     --recurse-submodules  recurse through submodules
     --format <format>     format to use for the output
 ```
-# git checkout, git switch
+
+## git checkout, git switch
+
 ```bash
 git checkout
 git switch  # new
 ```
-```
+
+```text
 usage: git checkout [<options>] <branch>
    or: git checkout [<options>] [<branch>] -- <file>...
 
@@ -87,7 +94,8 @@ usage: git checkout [<options>] <branch>
                           read pathspec from file
     --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
 ```
-```
+
+```text
 usage: git switch [<options>] [<branch>]
 
     -c, --create <branch>
@@ -112,11 +120,14 @@ usage: git switch [<options>] [<branch>]
     --ignore-other-worktrees
                           do not check if another worktree is holding the given ref
 ```
-# git merge
+
+## git merge
+
 ```bash
 git merge
 ```
-```
+
+```text
 usage: git merge [<options>] [<commit>...]
    or: git merge --abort
    or: git merge --continue
