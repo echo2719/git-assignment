@@ -10,13 +10,12 @@
 	  - OSS 교과목 수업 내용 정리
 
 - Github에 교재의 일부 정리 구축
-	- [ ] 했는가?
+	- [x] 했는가?
 - Github에 최소한 다음의 내용을 설명하는 자료 구축
     - [x] add, commit, log, show
     - [x] clone, push, pull, fetch/merge
     - [x] branch, checkout, switch, merge
-    - [ ] fast forward merge, 3-way merge, rebase
-    - [ ] conflict merge
+    - [x] fast forward merge, 3-way merge, rebase, conflict(머지)
     - [ ] reset revert
 
 ## ++++ 어어어???
