@@ -1,0 +1,6 @@
+git config --global user.name echo2719
+git config --global user.email echo2719@dongyang.ac.kr
+git config --global core.autocrlf true
+git config --global core.safecrlf false
+git config --global init.defaultbranch main
+git config --global core.editor 'code --wait'

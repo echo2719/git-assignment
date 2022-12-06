@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/20.7.1/primer.css"
+        integrity="sha512-pLZW84aqZZu+vPzKtmLUzDcS+zWltiFUkVKUQs/172L6B/qlet1/Fplx28+N404+j5P4AxT/pQx7104oewj5kA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="site-content">
+        <div class="container-lg p-responsive">
+            <div class="markdown-body d-flex flex-wrap gutter">
+    
+                <div class="col-md-6">
+    
+                    <h2 id="git-설치하기">Git 설치하기</h2>
+                    <p>GitHub은 일반적으로 많이 사용되는 저장소 관련 작업을 위한 데스크톱 클라이언트와 함께, 더 복잡한 작업을 위해 자동으로 업데이트되는 Git command line 에디션을
+                        제공합니다.</p>
+    
+                    <h3 id="windows-사용자를-위한-github">Windows 사용자를 위한 GitHub</h3>
+                    <p><a href="https://windows.github.com">windows.github.com</a></p>
+    
+                    <h3 id="mac-사용자를-위한-github">Mac 사용자를 위한 GitHub</h3>
+                    <p><a href="https://mac.github.com">mac.github.com</a></p>
+    
+                    <p>리눅스와 POSIX 운영체제를 위한 Git 배포 버전은 Git의 공식 웹사이트인 Git SCM에서 확인하실 수 있습니다.</p>
+    
+                    <h3 id="모든-플랫폼을-위한-git">모든 플랫폼을 위한 Git</h3>
+                    <p><a href="https://git-scm.com">git-scm.com</a></p>
+    
+                    <h2 id="환경-설정">환경 설정</h2>
+                    <p>모든 로컬 저장소에 적용할 사용자 정보를 설정합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git config --global user.name "[name]"</code>
+                    </p>
+    
+                    <p>자신이 생성한 커밋(commit)에 들어갈 이름을 설정합니다</p>
+    
+                    <p><code
+                            class="language-plaintext highlighter-rouge">$ git config --global user.email "[email address]"</code>
+                    </p>
+    
+                    <p>자신이 생성한 커밋에 들어갈 이메일 주소를 설정합니다</p>
+    
+                    <h2 id="저장소-생성하기">저장소 생성하기</h2>
+                    <p>새로운 저장소를 만들거나, 다른 저장소의 URL을 이용해 저장소를 복사합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git init [project-name]</code></p>
+    
+                    <p>새로운 로컬 저장소를 생성하고 이름을 정합니다.</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git clone [url]</code></p>
+    
+                    <p>기존 프로젝트의 모든 커밋 내역을 가져와 저장소를 만듭니다</p>
+    
+    
+                </div>
+    
+                <div class="col-md-6">
+    
+                    <h2 id="변경점을-저장하기">변경점을 저장하기</h2>
+                    <p>수정 사항을 검토하고 커밋을 생성합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git status</code></p>
+    
+                    <p>커밋할 수 있는 새로운 파일과 수정된 파일의 목록을 보여줍니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git diff</code></p>
+    
+                    <p>수정하였으나 아직 stage하지 않은 파일의 변경점을 보여줍니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git add [file]</code></p>
+    
+                    <p>커밋을 준비하기 위해 파일을 stage합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git diff --staged</code></p>
+    
+                    <p>stage하였으나 아직 커밋하지 않은 파일과 가장 최근에 커밋한 파일을 비교합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git reset [file]</code></p>
+    
+                    <p>파일의 내용은 유지한 채로 stage한 내역만을 제거합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git commit -m"[descriptive message]"</code></p>
+    
+                    <p>stage한 내용을 커밋으로 영구히 저장합니다</p>
+    
+                    <h2 id="변경점을-묶어-관리하기">변경점을 묶어 관리하기</h2>
+                    <p>일련의 커밋에 이름을 붙이고 여러 변경점을 합칩니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git branch</code></p>
+    
+                    <p>현재 저장소의 모든 로컬 브랜치를 보여줍니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git branch [branch-name]</code></p>
+    
+                    <p>새로운 브랜치를 생성합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git switch -c [branch-name]</code></p>
+    
+                    <p>특정 브랜치로 전환하고 워킹 디렉토리를 업데이트합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git merge [branch-name]</code></p>
+    
+                    <p>현재 브랜치에 특정 브랜치의 히스토리를 병합시킵니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git branch -d [branch-name]</code></p>
+    
+                    <p>브랜치를 삭제합니다</p>
+    
+                </div>
+                <div class="clearfix"></div>
+    
+                <div class="col-md-6">
+    
+                    <h2 id="파일-이름-바꾸기">파일 이름 바꾸기</h2>
+                    <p>버전 관리 중인 파일을 옮기거나 삭제합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git rm [file]</code></p>
+    
+                    <p>워킹 디렉토리에 있는 파일을 제거하고 삭제한 내역을 stage합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git rm --cached [file]</code></p>
+    
+                    <p>현재 파일은 그대로 두고 버전 관리 체계에서만 제거합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git mv [file-original] [file-renamed]</code></p>
+    
+                    <p>파일명을 변경하고 해당 내역을 stage합니다</p>
+    
+                    <h2 id="특정-파일을-저장소에서-제외하기">특정 파일을 저장소에서 제외하기</h2>
+                    <p>임시 파일과 경로를 제외시킵니다</p>
+    
+                    <div class="language-plaintext highlighter-rouge">
+                        <div class="highlight">
+                            <pre class="highlight"><code>*.log
+    build/
+    temp-*
+    </code></pre>
+                        </div>
+                    </div>
+    
+                    <p><code class="language-plaintext highlighter-rouge">.gitignore</code>이라는 텍스트 파일에 제외할 문자열 패턴을 지정하여 실수로
+                        엉뚱한 파일이나 경로가 저장되지 않게 방지할 수 있습니다</p>
+    
+                    <p><code
+                            class="language-plaintext highlighter-rouge">$ git ls-files --others --ignored --exclude-standard</code>
+                    </p>
+    
+                    <p>이 프로젝트에서 제외된 모든 파일을 보여줍니다</p>
+    
+                    <h2 id="변경점-일부분을-저장하기">변경점 일부분을 저장하기</h2>
+                    <p>불완전한 변경 사항을 임시로 저장하거나 복원합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git stash</code></p>
+    
+                    <p>버전 관리 중인 모든 파일의 변경점을 임시로 저장합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git stash pop</code></p>
+    
+                    <p>가장 최근에 임시 저장한 내용을 복원합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git stash list</code></p>
+    
+                    <p>임시 저장된 모든 변경점의 목록을 보여줍니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git stash drop</code></p>
+    
+                    <p>가장 최근에 임시 저장한 내용을 지웁니다</p>
+    
+                </div>
+    
+                <div class="col-md-6">
+    
+                    <h2 id="변경-기록-검토">변경 기록 검토</h2>
+                    <p>프로젝트 내 파일의 변경 기록을 살펴보고 검토합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git log</code></p>
+    
+                    <p>현재 브랜치의 변경 기록을 보여줍니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git log --follow [file]</code></p>
+    
+                    <p>특정 파일의 변경 기록을 보여줍니다(파일명 변경 포함)</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git diff [first-branch]...[second-branch]</code>
+                    </p>
+    
+                    <p>두 브랜치의 차이점을 비교합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git show [commit]</code></p>
+    
+                    <p>특정 커밋에 포함된 변경 사항과 메타데이터를 표시합니다</p>
+    
+                    <h2 id="커밋-되돌리기">커밋 되돌리기</h2>
+                    <p>실수한 내용을 지우고 기록을 바꿉니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git reset [commit]</code></p>
+    
+                    <p>현재 파일의 변경 사항은 그대로 두고 ‘[커밋]’ 이후의 모든 커밋 내용을 되돌립니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git reset --hard [commit]</code></p>
+    
+                    <p>모든 변경점과 기록을 버리고 특정 커밋으로 되돌아갑니다</p>
+    
+                    <h2 id="변경점을-동기화하기">변경점을 동기화하기</h2>
+                    <p>원격 저장소(의 URL)을 등록하고 저장소 기록을 주고받습니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git fetch [remote]</code></p>
+    
+                    <p>원격 저장소로부터 모든 기록을 받아옵니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git merge [remote]/[branch]</code></p>
+    
+                    <p>원격 브랜치를 현재 사용 중인 로컬 브랜치와 병합합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git push [remote] [branch]</code></p>
+    
+                    <p>모든 로컬 브랜치의 변경점을 GitHub에 업로드합니다</p>
+    
+                    <p><code class="language-plaintext highlighter-rouge">$ git pull</code></p>
+    
+                    <p>북마크된 원격 브랜치의 기록을 다운로드하여 변경점을 병합합니다</p>
+    
+                </div>
+    
+            </div>
+        </div>
+    
+    </main>
+</body>
+</html>
