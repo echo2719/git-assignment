@@ -19,3 +19,9 @@ star
 
 깃헙용 맑다운
 
+깃헙 레포 안에서 
+pull requests
+milestones
+issues
+wiki
+actions
