@@ -36,4 +36,3 @@ reset revert~~
 
 
 [이쪽이](https://github.com/9dongb/My-OSS)
-[이쪽도](https://github.com/nyryngji/AI-lecture)

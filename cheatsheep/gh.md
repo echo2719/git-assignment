@@ -1,5 +1,5 @@
 ## 깃헙이 렌더링 가능한 파일
-geojson/topojson 
+geojson/topojson
 .ipynb
 pdf
 stl
