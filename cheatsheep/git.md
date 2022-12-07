@@ -55,6 +55,19 @@ UNDO
 List all operations on repository
 git reflog
 
+reflog
+
+커밋 수정하기 (이놈은 치트시트로 이동하자)
+commit --amend 여러 옵션 가능
+
+git rebase --interactive (-i) head^n
+
+https://stackoverflow.com/questions/134882/undoing-a-git-rebase
+
+..
+
+또 뭐
+
 Discard all local changes in your working directory
 git reset --hard HEAD
 
