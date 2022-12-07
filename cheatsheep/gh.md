@@ -25,6 +25,7 @@ pull requests
 milestones
 issues
 wiki
+discussions
 actions
 
 ## 깃헙용 맑다운
