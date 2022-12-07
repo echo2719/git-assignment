@@ -1,4 +1,5 @@
 # git reset
+
 ```
 usage: git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
    or: git reset [-q] [<tree-ish>] [--] <pathspec>...
@@ -23,7 +24,9 @@ usage: git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
     -z                    DEPRECATED (use --pathspec-file-nul instead): paths are separated with NUL character
     --stdin               DEPRECATED (use --pathspec-from-file=- instead): read paths from <stdin>
 ```
+
 # git revert
+
 ```
 usage: git revert [<options>] <commit-ish>...
    or: git revert <subcommand>

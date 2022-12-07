@@ -1,4 +1,5 @@
 $
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ echo 'a=[]' > main.py
@@ -156,6 +157,7 @@ index 5219397..7623551 100644
 +print(10,20,30)
 
 ```
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -266,7 +268,9 @@ index 7623551..5effff7 100644
 ```
 
 ## git stash -m "message"
+
 or git stash save "mes"??
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -345,7 +349,9 @@ stash@{1}: WIP on master: 1c83640 add comp
 stash@{2}: WIP on master: 1c83640 add comp
 
 ```
+
 ## applying
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git stash apply
@@ -380,6 +386,7 @@ index 7623551..5effff7 100644
 ```
 
 ## applying with --index o
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -421,10 +428,11 @@ $ git status --short
 M  main.py   초록
 
 ```
+
 __여태껏 여러면 gui로 봐왔는데 아주 유용하더라ㅏㅏㅏ,,,.__
 
-
 ## git stash -k (--[no-]keep-index)
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -498,9 +506,13 @@ Changes not staged for commit:
 ```
 
 untracked는 기본적으로 복사가 안되유
+
 ## 추적 안된 파일을 할라믄
+
 ### git stash -u(--include-untracked)
+
 222p 에 보시면 하단부에 git reset '-'soft 앗 오탈자가 있네유
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -564,7 +576,7 @@ stash@{6}: WIP on master: 1c83640 add comp
 
 ```
 
-## 스테쉬를 브랜치에다가 하기 !!!!
+## 스테쉬를 브랜치에다가 하기
 
 ```
 
@@ -593,10 +605,10 @@ all clean?
 
 ```
 
-
 ## git stash pop (vs apply(doesnt pop) )
 
-### 최근 동향 : git stash push가 기본으로 되어...
+### 최근 동향 : git stash push가 기본으로 되어
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git stash pop
@@ -633,7 +645,9 @@ $ git stash show
 ```
 
 ## git stash drop
+
 only drop
+
 ```
 
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
@@ -657,6 +671,7 @@ stash@{3}: WIP on master: 1c83640 add comp
 ```
 
 drop by stash num??
+
 ```
 
 
@@ -671,19 +686,22 @@ drop by stash num??
 
 ```
 
-
 ## 번외: remove untracked files
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git clean wowitsnot_tracked
 fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing to clean
 ```
+
 ### git clean ( __-f__ -n -i )
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git clean -f wowitsnot_tracked
 Removing wowitsnot_tracked
 ```
+
 ```
 ...
 Untracked files:
@@ -694,7 +712,9 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
+
 ### -n (?
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git clean -n
@@ -704,7 +724,9 @@ Would remove c
 
 ok!
 ```
+
 ### -i
+
 ```
 112@112-32 MINGW64 /d/peef/@PortableGit/9w/stash (master)
 $ git clean -i
@@ -718,4 +740,4 @@ What now> 타잎
 오~
 조금 파고들면 자세하고 친절하게 뭘 삭제할지 정할수이따. 끝.
 ```
-**-i 옵션 리베이스따위를 할때도 통한다!!!! 머야 개편해!!**
+__-i 옵션 리베이스따위를 할때도 통한다!!!! 머야 개편해!!__
