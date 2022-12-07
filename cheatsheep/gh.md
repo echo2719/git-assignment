@@ -46,3 +46,13 @@ psd
 ## star 분류하기
 
 ## dependency 
+
+## 표준 가이드라인 체크리스트
+Description
+README
+Code of conduct
+Writing contributing guidelines
+License
+Security policy
+Issue templates
+Pull request template
